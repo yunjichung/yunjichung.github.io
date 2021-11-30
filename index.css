@@ -1,0 +1,191 @@
+html body {
+    background: #f2f2f2;
+    font-family: Aleo;
+    color: #5F5F5F;
+    height: 100%;
+    margin-top: 60px;
+}
+
+a {
+    color: #5F5F5F;
+}
+
+/* Navigation Bar */
+.navbar {
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #5F5F5F;
+    font-size: 12px;
+}
+.nav-link:hover {
+    color: #FFAFB3;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.navbar-bg {
+    background-color: #f2f2f2;
+}
+
+.main {
+    margin-top: 110px;
+}
+
+/* Side Text */
+.productdesigner {
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.maintext {
+    width: 250px;
+    padding-left: 2px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subtext1 {
+    width: 280px;
+    padding-left: 2px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.subtext2 {
+    width: 280px;
+    padding-left: 2px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+/* Projects */
+.projectbox {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.projectinfo {
+    position: absolute;
+    top: 40%; left: 10%;
+    width: 80%;
+}
+
+.projecttitle {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.projectdesc {
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+
+.picture2 {
+    display: none;
+}
+.amity:hover .picture1 {
+    display: none;
+}
+.amity:hover .picture2 {
+    display: block;
+}
+.amity:hover .projecttitle {
+    display: none;
+}
+.amity:hover .projectdesc {
+    display: none;
+}
+
+.cochl:hover .picture1 {
+    display: none;
+}
+.cochl:hover .picture2 {
+    display: block;
+}
+.cochl:hover .projecttitle {
+    display: none;
+}
+.cochl:hover .projectdesc {
+    display: none;
+}
+
+.nda {
+    font-size: 11px;
+    opacity: 0;
+}
+.optum:hover .picture1 {
+    display: none;
+}
+.optum:hover .picture2 {
+    display: block;
+}
+.optum:hover .projecttitle {
+    display: none;
+}
+.optum:hover .projectdesc {
+    display: none;
+}
+.optum:hover .nda {
+    opacity: 100;
+}
+
+.amityin {
+    position: absolute;
+    opacity: 0;
+    animation-name: amityimage;
+    animation-duration: 2s;
+}
+@keyframes amityimage {
+    0%   {opacity: 0;}
+    50%   {opacity: 100;}
+    100% {opacity: 0;}
+  }
+
+.cochlin {
+    position: absolute;
+    opacity: 0;
+    animation-name: cochlimage;
+    animation-duration: 3s;
+}
+@keyframes cochlimage {
+    0%   {opacity: 0;}
+    25%   {opacity: 0;}
+    50%   {opacity: 100;}
+    100% {opacity: 0;}
+  }
+
+.optumin {
+    position: absolute;
+    opacity: 0;
+    animation-name: optumimage;
+    animation-duration: 4s;
+}
+@keyframes optumimage {
+    0%   {opacity: 0;}
+    25%   {opacity: 0;}
+    40%   {opacity: 0;}
+    50%   {opacity: 100;}
+    100% {opacity: 0;}
+  }
+
+.mypointer {
+    cursor: url('mypointer.png'),pointer;
+}
+.mylock {
+    cursor: url('mylock.png'),auto;
+}
+.mycursor {
+    cursor: url('mycursor.png'),auto;
+}
+.auto {cursor: auto;}
+.mycursor2 {
+    cursor: url('mycursor2.png'),pointer;
+}

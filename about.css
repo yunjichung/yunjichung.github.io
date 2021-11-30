@@ -1,0 +1,45 @@
+.venn {
+    width: 100%;
+}
+
+.vennparent {
+    position: relative;
+}
+
+/* 
+.venn1 {
+    position: absolute;
+    opacity: 0;
+    animation-name: venn1;
+    animation-duration: 2s;
+}
+@keyframes venn1 {
+    0%   {opacity: 0;}
+    50%   {opacity: 100;}
+    100% {opacity: 0;}
+  }
+.venn2 {
+    position: absolute;
+    opacity: 0;
+    animation-name: venn2;
+    animation-duration: 3s;
+}
+@keyframes venn2 {
+    0%   {opacity: 0;}
+    25%   {opacity: 0;}
+    50%   {opacity: 100;}
+    100% {opacity: 0;}
+  }
+.venn3 {
+    position: absolute;
+    opacity: 0;
+    animation-name: venn3;
+    animation-duration: 4s;
+}
+@keyframes venn3 {
+    0%   {opacity: 0;}
+    25%   {opacity: 0;}
+    40%   {opacity: 0;}
+    50%   {opacity: 100;}
+    100% {opacity: 0;}
+  } */
