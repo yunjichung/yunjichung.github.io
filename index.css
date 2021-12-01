@@ -19,13 +19,21 @@ a {
     color: #5F5F5F;
     font-size: 14px;
 }
+
+.nav-link:active {
+    color: #5F5F5F;
+    font-weight: bold;
+}
+
 .nav-link:hover {
     color: #FFAFB3;
 }
+
 .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 13px;
     padding-right: 13px;
 }
+
 .navbar-bg {
     background-color: #f2f2f2;
 }
