@@ -17,7 +17,7 @@ a {
 
 .nav-link {
     color: #5F5F5F;
-    font-size: 12px;
+    font-size: 14px;
 }
 .nav-link:hover {
     color: #FFAFB3;
@@ -35,59 +35,60 @@ a {
 }
 
 /* Side Text */
-.productdesigner {
+.productdesigner { /*set properties for the product designer image*/
     width: 280px;
     margin-bottom: 15px;
 }
 
-.maintext {
+.maintext { /*for my name*/
     width: 250px;
     padding-left: 2px;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-.subtext1 {
+.subtext1 { /*for my current/past work information*/
     width: 280px;
     padding-left: 2px;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 10px;
 }
 
-.subtext2 {
+.subtext2 { /*for my current/past work information*/
     width: 280px;
     padding-left: 2px;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 
 /* Projects */
-.projectbox {
+.projectbox { /*for individual project boxes*/
     width: 100%;
     margin-top: 30px;
 
 }
 
-.thumbnail {
+.thumbnail { /*parent element to position text as absolute*/
     position: relative;
 }
 
-.projectinfo {
+.projectinfo { /*position text on top of image*/
     position: absolute;
     top: 40%; left: 10%;
     width: 80%;
 }
 
-.projecttitle {
+/* .projecttitle {
     margin-bottom: 5px;
+    font-size: 14px;
+} */
+
+.projectdesc { /*explain project*/
+    margin-bottom: 0px;
     font-size: 14px;
 }
 
-.projectdesc {
-    margin-bottom: 0px;
-    font-size: 11px;
-}
-
+/*To hide wireframes until they are hovered*/
 .picture2 {
     display: none;
 }
@@ -137,6 +138,7 @@ a {
     opacity: 100;
 }
 
+/*To add animations for colors as soon as page loads*/
 .amityin {
     position: absolute;
     opacity: 0;
@@ -176,16 +178,17 @@ a {
     100% {opacity: 0;}
   }
 
+  /*to add custom cursors*/
 .mypointer {
-    cursor: url('mypointer.png'),pointer;
+    cursor: url('images/cursors/mypointer.png'),pointer;
 }
 .mylock {
-    cursor: url('mylock.png'),auto;
+    cursor: url('images/cursors/mylock.png'),auto;
 }
 .mycursor {
-    cursor: url('mycursor.png'),auto;
+    cursor: url('images/cursors/mycursor.png'),auto;
 }
 .auto {cursor: auto;}
 .mycursor2 {
-    cursor: url('mycursor2.png'),pointer;
+    cursor: url('images/cursors/mycursor2.png'),pointer;
 }

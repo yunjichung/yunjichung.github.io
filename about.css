@@ -1,45 +1,39 @@
-.venn {
-    width: 100%;
+ul {
+    margin-bottom: 0px; /*remove default property */
 }
 
-.vennparent {
-    position: relative;
+.yunji {
+    width: 100%; /*ensure image takes up whole column*/
 }
 
-/* 
-.venn1 {
-    position: absolute;
-    opacity: 0;
-    animation-name: venn1;
-    animation-duration: 2s;
+.abouttitle {
+    font-size: 15px;
+    margin-bottom: 8px;
 }
-@keyframes venn1 {
-    0%   {opacity: 0;}
-    50%   {opacity: 100;}
-    100% {opacity: 0;}
-  }
-.venn2 {
-    position: absolute;
-    opacity: 0;
-    animation-name: venn2;
-    animation-duration: 3s;
+
+.abouttitle2 { /*css for last title to remove bottom margin*/
+    font-size: 15px;
+    margin-bottom: 0px;
 }
-@keyframes venn2 {
-    0%   {opacity: 0;}
-    25%   {opacity: 0;}
-    50%   {opacity: 100;}
-    100% {opacity: 0;}
-  }
-.venn3 {
-    position: absolute;
-    opacity: 0;
-    animation-name: venn3;
-    animation-duration: 4s;
+
+.aboutbullet {
+    font-size: 12px;
 }
-@keyframes venn3 {
-    0%   {opacity: 0;}
-    25%   {opacity: 0;}
-    40%   {opacity: 0;}
-    50%   {opacity: 100;}
-    100% {opacity: 0;}
-  } */
+
+.group { /*create inner shadow box for text background*/
+    margin-bottom: 25px;
+    background-color: #F0F0F0;
+    box-shadow: 1px 1.5px 5px #A0A0A0 inset;
+    padding: 20px 23px 20px 23px;
+    border-radius: 4px;
+}
+
+.group1 { /*css for first box to add space between elements*/
+    margin-top: 40px;
+}
+
+.pink { /*add pink highlights to certain texts*/
+    background-color: #FFC0C3;
+    padding: 5px;
+    border-radius: 2px;
+}
